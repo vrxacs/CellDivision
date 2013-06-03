@@ -1,0 +1,1 @@
+This is a simple cell division discrete event simulation. Each time a cell splits, its daughters will split in some random time time in the future, uniformly distributed betweem minSplit and maxSplit. This simulation uses a min heap to implement a priority queue for the split events.
